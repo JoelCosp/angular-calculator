@@ -1,35 +1,37 @@
 @import "tailwindcss";
 
-/* html {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+/* body {
+    background-color: #a8754b;
 } */
+
+.calculator {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 .nums-screen {
     background-image: linear-gradient(to right top, #c6d5bd, #bfceb6, #b8c7b0, #b1c0a9, #aab9a3);
     border: solid 2px #40444c;
-    box-shadow: 
-    -4px -4px 6px #60646c, /* Sombra clara en la esquina superior izquierda */
-     4px 4px 6px #20242c;
+    box-shadow: -4px -4px 6px #60646c, 4px 4px 6px #20242c;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: right;
+    padding: 0 20px;
+    font-size: 25px;
+    outline-style: none;
 }
 
 .btns-container {
-    margin: 25px 0;
+    margin: 15px 0;
 }
 
 .btns-container button {
     min-height: 65px;
     max-height: 65px;
     border-radius: 50px;
-    box-shadow: 
-    -4px -4px 6px #60646c, /* Sombra clara en la esquina superior izquierda */
-     4px 4px 6px #20242c;
-     color: rgb(202, 202, 202);
-     outline-style: none;
-     font-weight: bold;
-     background-color: #40444c;
+    box-shadow: -4px -4px 6px #60646c, 4px 4px 6px #20242c;
+    color: rgb(202, 202, 202);
+    outline-style: none;
+    font-weight: bold;
+    background-color: #40444c;
 }
 
 .action-btn {
